@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script type='text/javascript' src='https://private-us-east-1.manuscdn.com/OBHXvL4Gl55ESMAPRTY_MkQvIoEzrNsp2p_qxRqFTY1qktgUmhBB7UBWEZNK1FfBBo5jc8CzTKA8esqYHapT2A=='></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover your intuitive abilities with this comprehensive Third I Assessment by Sonia.B Clairvoyant. Test your psychic potential and learn about developing your intuition.">
+    <meta name="keywords" content="intuition test, psychic abilities, third eye, clairvoyance, spiritual assessment, Sonia.B Clairvoyant">
+    <meta name="author" content="Sonia.B Clairvoyant">
+    <meta property="og:title" content="Discover Your Intuitive Abilities: A Third I Assessment by Sonia.B Clairvoyant">
+    <meta property="og:description" content="Take this comprehensive quiz to discover your psychic potential and learn how to develop your intuitive abilities with expert guidance from Sonia.B Clairvoyant.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.intuitivebalancekeeper.com">
+    <meta property="og:site_name" content="Intuitive Balance Keeper">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Discover Your Intuitive Abilities: A Third I Assessment">
+    <meta name="twitter:description" content="Take this comprehensive quiz to discover your psychic potential with Sonia.B Clairvoyant.">
+    <title>Discover Your Intuitive Abilities: A Third I Assessment | Sonia.B Clairvoyant</title>
+    <link rel="canonical" href="https://www.intuitivebalancekeeper.com">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .quiz-header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .quiz-title {
+            font-size: 2.5em;
+            color: #4a5568;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-subtitle {
+            font-size: 1.2em;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .quiz-author {
+            font-size: 1.1em;
+            color: #764ba2;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .quiz-description {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .website-link {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .website-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .website-link a:hover {
+            text-decoration: underline;
+        }
+
+        .question-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideIn 0.6s ease-out forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .question-number {
+            font-size: 1.1em;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 1.3em;
+            color: #4a5568;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .answer-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .answer-option {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .answer-option:hover {
+            background: #edf2f7;
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .answer-option.selected {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-color: #667eea;
+            transform: scale(1.02);
+        }
+
+        .answer-option input[type="radio"] {
+            display: none;
+        }
+
+        .answer-label {
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.1em;
+        }
+
+        .answer-text {
+            font-size: 1em;
+        }
+
+        .progress-container {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            height: 8px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            height: 100%;
+            border-radius: 25px;
+            transition: width 0.5s ease;
+            width: 0%;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #e2e8f0;
+            color: #4a5568;
+        }
+
+        .btn-secondary:hover {
+            background: #cbd5e0;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .results-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            display: none;
+        }
+
+        .results-title {
+            font-size: 2.5em;
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .results-level {
+            font-size: 2em;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .results-score {
+            font-size: 1.3em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .results-description {
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+
+        .results-description h3 {
+            color: #667eea;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        .results-description ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        .results-description li {
+            margin: 8px 0;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        .cta-title {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .cta-text {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .share-buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 12px 25px;
+            border: 2px solid #667eea;
+            background: transparent;
+            color: #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .share-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .footer-branding {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: white;
+        }
+
+        .footer-branding a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-branding a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .quiz-title {
+                font-size: 2em;
+            }
+            
+            .question-text {
+                font-size: 1.2em;
+            }
+            
+            .navigation-buttons {
+                flex-direction: column;
+            }
+            
+            .share-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .mystical-decoration {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        .eye-symbol {
+            position: absolute;
+            font-size: 2em;
+            color: #667eea;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .secure-badge {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 128, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="mystical-decoration">
+        <div class="eye-symbol" style="top: 10%; left: 10%;">👁</div>
+        <div class="eye-symbol" style="top: 20%; right: 15%; animation-delay: -2s;">✨</div>
+        <div class="eye-symbol" style="bottom: 20%; left: 20%; animation-delay: -4s;">🔮</div>
+        <div class="eye-symbol" style="bottom: 10%; right: 10%; animation-delay: -1s;">👁</div>
+    </div>
+
+    <div class="secure-badge" id="secureBadge" style="display: none;">🔒 Secure</div>
+
+    <div class="container">
+        <div class="quiz-header">
+            <h1 class="quiz-title">Discover Your Intuitive Abilities</h1>
+            <p class="quiz-subtitle">A Third I Assessment</p>
+            <p class="quiz-author">by Sonia.B Clairvoyant</p>
+            <p class="quiz-description">
+                Explore the depths of your psychic potential with this comprehensive assessment. 
+                Answer honestly and trust your first instinct for the most accurate results.
+            </p>
+            <div class="website-link">
+                <a href="https://www.intuitivebalancekeeper.com" target="_blank" rel="noopener noreferrer">
+                    www.intuitivebalancekeeper.com
+                </a>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div id="quizContainer">
+            <!-- Questions will be dynamically inserted here -->
+        </div>
+
+        <div class="navigation-buttons">
+            <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()" disabled>Previous</button>
+            <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>Next Question</button>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <h2 class="results-title">Your Intuitive Profile</h2>
+            <div class="results-level" id="resultsLevel"></div>
+            <div class="results-score" id="resultsScore"></div>
+            <div class="results-description" id="resultsDescription"></div>
+            
+            <div class="cta-section">
+                <h3 class="cta-title">Ready to Develop Your Third I Further?</h3>
+                <p class="cta-text">
+                    Take the next step in your intuitive development journey with the comprehensive 
+                    "Third I Tips and Workbook" by Sonia.B Clairvoyant.
+                </p>
+                <a href="https://www.intuitivebalancekeeper.com/copy-of-third-i-tips-e-book" class="cta-button" target="_blank" rel="noopener noreferrer">
+                    Get Your Copy Now
+                </a>
+            </div>
+
+            <div class="share-buttons">
+                <button class="share-btn" onclick="shareResults('facebook')">Share on Facebook</button>
+                <button class="share-btn" onclick="shareResults('twitter')">Share on Twitter</button>
+                <button class="share-btn" onclick="shareResults('linkedin')">Share on LinkedIn</button>
+                <button class="share-btn" onclick="retakeQuiz()">Retake Quiz</button>
+            </div>
+        </div>
+
+        <div class="footer-branding">
+            <p>© 2024 <a href="https://www.intuitivebalancekeeper.com" target="_blank" rel="noopener noreferrer">Sonia.B Clairvoyant</a> | Intuitive Balance Keeper</p>
+            <p>Discover your psychic potential and develop your intuitive abilities</p>
+        </div>
+    </div>
+
+    <script>
+        function checkHTTPS() {
+            if (location.protocol === 'https:') {
+                document.getElementById('secureBadge').style.display = 'block';
+            }
+        }
+
+        function openSecureLink(url) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.click();
+        }
+
+        const questions = [
+            {
+                number: 1,
+                text: "When I meet someone new, I can immediately sense whether they are trustworthy or not.",
+                answers: [
+                    { label: "A", text: "Never - I need time and evidence to judge someone's character", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally get a vague feeling about people", value: 2 },
+                    { label: "C", text: "Sometimes - I get gut feelings about people that are sometimes accurate", value: 3 },
+                    { label: "D", text: "Often - I usually get strong, accurate impressions about people's character", value: 4 },
+                    { label: "E", text: "Always - I instantly know if someone is trustworthy and I'm almost always right", value: 5 }
+                ]
+            },
+            {
+                number: 2,
+                text: "I second-guess my initial instincts and end up making decisions I later regret.",
+                answers: [
+                    { label: "A", text: "Never - I always trust my first instinct and it serves me well", value: 5 },
+                    { label: "B", text: "Rarely - I occasionally doubt myself but usually stick with my gut feeling", value: 4 },
+                    { label: "C", text: "Sometimes - I go back and forth between trusting and doubting my instincts", value: 3 },
+                    { label: "D", text: "Often - I frequently override my gut feelings with logical analysis", value: 2 },
+                    { label: "E", text: "Always - I constantly doubt my instincts and rely only on facts and logic", value: 1 }
+                ],
+                reverse: true
+            },
+            {
+                number: 3,
+                text: "I often \"just know\" things without being able to explain how I know them.",
+                answers: [
+                    { label: "A", text: "Never - Everything I know comes from learning or experience", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally have unexplained insights", value: 2 },
+                    { label: "C", text: "Sometimes - I get sudden knowledge that proves to be accurate", value: 3 },
+                    { label: "D", text: "Often - I frequently receive information that I can't logically explain", value: 4 },
+                    { label: "E", text: "Always - I constantly receive intuitive downloads of information", value: 5 }
+                ]
+            },
+            {
+                number: 4,
+                text: "I see mental images or symbols that give me insight into situations or people.",
+                answers: [
+                    { label: "A", text: "Never - I don't experience visual impressions or symbols", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally see fleeting images in my mind", value: 2 },
+                    { label: "C", text: "Sometimes - I get mental pictures that help me understand situations", value: 3 },
+                    { label: "D", text: "Often - I regularly receive visual impressions that guide my decisions", value: 4 },
+                    { label: "E", text: "Always - I constantly see detailed images and symbols that provide clear guidance", value: 5 }
+                ]
+            },
+            {
+                number: 5,
+                text: "I need to analyze every detail logically before making any important decision.",
+                answers: [
+                    { label: "A", text: "Never - I make decisions quickly based on my inner knowing", value: 5 },
+                    { label: "B", text: "Rarely - I prefer intuitive decisions but sometimes analyze details", value: 4 },
+                    { label: "C", text: "Sometimes - I balance logical analysis with intuitive feelings", value: 3 },
+                    { label: "D", text: "Often - I usually need thorough analysis before deciding", value: 2 },
+                    { label: "E", text: "Always - I must have complete logical analysis before any decision", value: 1 }
+                ],
+                reverse: true
+            },
+            {
+                number: 6,
+                text: "I feel physical sensations in my body (like chills, tingling, or stomach feelings) that warn me about situations.",
+                answers: [
+                    { label: "A", text: "Never - I don't experience physical intuitive sensations", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally notice body sensations that might be meaningful", value: 2 },
+                    { label: "C", text: "Sometimes - I get physical feelings that alert me to important information", value: 3 },
+                    { label: "D", text: "Often - My body regularly gives me clear intuitive signals", value: 4 },
+                    { label: "E", text: "Always - I constantly receive accurate guidance through physical sensations", value: 5 }
+                ]
+            },
+            {
+                number: 7,
+                text: "I hear words, phrases, or sounds in my mind that provide guidance or information.",
+                answers: [
+                    { label: "A", text: "Never - I don't experience inner voices or sounds", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally hear words or phrases in my thoughts", value: 2 },
+                    { label: "C", text: "Sometimes - I receive helpful guidance through inner hearing", value: 3 },
+                    { label: "D", text: "Often - I regularly hear clear messages or guidance", value: 4 },
+                    { label: "E", text: "Always - I constantly receive detailed verbal guidance from within", value: 5 }
+                ]
+            },
+            {
+                number: 8,
+                text: "I miss important warning signs because I'm too focused on practical matters.",
+                answers: [
+                    { label: "A", text: "Never - I always notice and heed warning signs and intuitive signals", value: 5 },
+                    { label: "B", text: "Rarely - I occasionally miss subtle signs but catch most important ones", value: 4 },
+                    { label: "C", text: "Sometimes - I notice some warning signs but miss others", value: 3 },
+                    { label: "D", text: "Often - I frequently miss important intuitive warnings", value: 2 },
+                    { label: "E", text: "Always - I'm so focused on practical matters that I miss all intuitive signals", value: 1 }
+                ],
+                reverse: true
+            },
+            {
+                number: 9,
+                text: "I have accurate hunches about how situations will turn out before they happen.",
+                answers: [
+                    { label: "A", text: "Never - I can't predict outcomes and am often surprised by results", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally guess correctly about outcomes", value: 2 },
+                    { label: "C", text: "Sometimes - I have hunches about the future that often prove accurate", value: 3 },
+                    { label: "D", text: "Often - I regularly predict outcomes with surprising accuracy", value: 4 },
+                    { label: "E", text: "Always - I consistently know how things will unfold before they happen", value: 5 }
+                ]
+            },
+            {
+                number: 10,
+                text: "I receive meaningful information through dreams, daydreams, or sudden visions.",
+                answers: [
+                    { label: "A", text: "Never - My dreams are random and I don't have visions", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally have dreams or images that seem meaningful", value: 2 },
+                    { label: "C", text: "Sometimes - I receive helpful guidance through dreams or mental images", value: 3 },
+                    { label: "D", text: "Often - I regularly get important information through dreams and visions", value: 4 },
+                    { label: "E", text: "Always - I constantly receive detailed guidance through visual experiences", value: 5 }
+                ]
+            },
+            {
+                number: 11,
+                text: "I can sense the emotional atmosphere or energy of a room when I enter it.",
+                answers: [
+                    { label: "A", text: "Never - I don't notice room energy or emotional atmospheres", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally sense if a room feels tense or peaceful", value: 2 },
+                    { label: "C", text: "Sometimes - I can usually tell if there's been conflict or joy in a space", value: 3 },
+                    { label: "D", text: "Often - I immediately sense the emotional energy of any environment", value: 4 },
+                    { label: "E", text: "Always - I instantly read the complete energetic history of any space", value: 5 }
+                ]
+            },
+            {
+                number: 12,
+                text: "I have an inner voice or guidance system that helps me make decisions.",
+                answers: [
+                    { label: "A", text: "Never - I don't experience inner guidance or voices", value: 1 },
+                    { label: "B", text: "Rarely - I occasionally hear helpful thoughts or suggestions", value: 2 },
+                    { label: "C", text: "Sometimes - I have an inner voice that gives me good advice", value: 3 },
+                    { label: "D", text: "Often - I regularly receive clear guidance from my inner voice", value: 4 },
+                    { label: "E", text: "Always - I have constant access to wise inner guidance that never fails me", value: 5 }
+                ]
+            }
+        ];
+
+        const resultLevels = {
+            1: {
+                title: "Emerging Intuitive",
+                subtitle: "The Awakening Third I",
+                range: "12-24 points",
+                description: `
+                    <h3>Your Intuitive Profile:</h3>
+                    <p>You are at the beginning of an exciting journey of intuitive awakening. While your psychic abilities may seem subtle right now, you possess the fundamental sensitivity that all great intuitives started with. Your logical mind currently dominates your decision-making process, but you're beginning to notice those quiet whispers of inner knowing.</p>
+                    
+                    <h3>What This Means:</h3>
+                    <ul>
+                        <li>You occasionally experience gut feelings or hunches</li>
+                        <li>You may dismiss intuitive impressions as "just imagination"</li>
+                        <li>You're more comfortable with facts and logical analysis</li>
+                        <li>You're starting to become aware of subtle energies around you</li>
+                        <li>Your intuitive abilities are like seeds waiting to sprout</li>
+                    </ul>
+                    
+                    <h3>Your Next Steps:</h3>
+                    <ul>
+                        <li><strong>Start a Daily Practice:</strong> Begin with just 5 minutes of quiet meditation each morning</li>
+                        <li><strong>Keep an Intuition Journal:</strong> Write down any hunches, dreams, or gut feelings</li>
+                        <li><strong>Practice Body Awareness:</strong> Notice how your body feels in different situations</li>
+                        <li><strong>Trust Small Hunches:</strong> Start with low-stakes decisions to build confidence</li>
+                    </ul>
+                `
+            },
+            2: {
+                title: "Developing Intuitive",
+                subtitle: "The Growing Third I",
+                range: "25-36 points",
+                description: `
+                    <h3>Your Intuitive Profile:</h3>
+                    <p>Your intuitive abilities are clearly developing and becoming more noticeable in your daily life. You've moved beyond the purely logical approach and are beginning to integrate your inner knowing with practical decision-making. You're in an exciting phase where your psychic sensitivity is strengthening and becoming more reliable.</p>
+                    
+                    <h3>What This Means:</h3>
+                    <ul>
+                        <li>You regularly experience accurate gut feelings</li>
+                        <li>You're learning to distinguish between fear and intuition</li>
+                        <li>You sometimes receive helpful guidance through dreams or sudden insights</li>
+                        <li>You can sense when something "feels off" about a situation</li>
+                        <li>You're building confidence in your inner guidance system</li>
+                    </ul>
+                    
+                    <h3>Your Next Steps:</h3>
+                    <ul>
+                        <li><strong>Strengthen Your Practice:</strong> Increase meditation to 10-15 minutes daily</li>
+                        <li><strong>Develop Discernment:</strong> Learn to distinguish between intuition, wishful thinking, and fear</li>
+                        <li><strong>Practice with Others:</strong> Try reading the energy of friends and family</li>
+                        <li><strong>Study Intuitive Techniques:</strong> Learn about the different types of psychic abilities</li>
+                    </ul>
+                `
+            },
+            3: {
+                title: "Strong Intuitive",
+                subtitle: "The Confident Third I",
+                range: "37-48 points",
+                description: `
+                    <h3>Your Intuitive Profile:</h3>
+                    <p>You have well-developed intuitive abilities that you use regularly and trust in your daily life. Your third eye is clearly open and active, providing you with reliable guidance across multiple areas of your life. You've learned to balance logical thinking with intuitive knowing, creating a powerful decision-making system.</p>
+                    
+                    <h3>What This Means:</h3>
+                    <ul>
+                        <li>You consistently receive accurate intuitive guidance</li>
+                        <li>You can read people and situations with remarkable accuracy</li>
+                        <li>You may experience multiple types of psychic phenomena (seeing, hearing, feeling, knowing)</li>
+                        <li>Others often come to you for advice and guidance</li>
+                        <li>You've learned to trust your inner voice even when it contradicts logic</li>
+                    </ul>
+                    
+                    <h3>Your Next Steps:</h3>
+                    <ul>
+                        <li><strong>Refine Your Abilities:</strong> Focus on developing your strongest intuitive channels</li>
+                        <li><strong>Help Others:</strong> Consider sharing your gifts through counseling or teaching</li>
+                        <li><strong>Advanced Practices:</strong> Explore deeper spiritual and psychic development techniques</li>
+                        <li><strong>Professional Development:</strong> Consider formal training in intuitive arts</li>
+                    </ul>
+                `
+            },
+            4: {
+                title: "Highly Intuitive",
+                subtitle: "The Gifted Third I",
+                range: "49-54 points",
+                description: `
+                    <h3>Your Intuitive Profile:</h3>
+                    <p>You possess exceptional intuitive abilities that guide virtually every aspect of your life. Your psychic sensitivity is highly developed, and you likely experience multiple forms of extrasensory perception regularly. You are a natural counselor and guide, with the ability to see beyond the surface of situations and people.</p>
+                    
+                    <h3>What This Means:</h3>
+                    <ul>
+                        <li>You receive detailed, accurate psychic information regularly</li>
+                        <li>You may experience prophetic dreams or visions</li>
+                        <li>You can sense things about people that they haven't told you</li>
+                        <li>You have a strong connection to spiritual guidance</li>
+                        <li>Your intuitive accuracy is consistently high across different areas</li>
+                    </ul>
+                    
+                    <h3>Your Next Steps:</h3>
+                    <ul>
+                        <li><strong>Master Your Gifts:</strong> Focus on consistency and reliability in your abilities</li>
+                        <li><strong>Serve Others:</strong> Consider how you can use your gifts to help humanity</li>
+                        <li><strong>Spiritual Mentorship:</strong> Seek advanced teachers or become one yourself</li>
+                        <li><strong>Energy Mastery:</strong> Develop sophisticated energy management skills</li>
+                    </ul>
+                `
+            },
+            5: {
+                title: "Master Intuitive",
+                subtitle: "The Awakened Third I",
+                range: "55-60 points",
+                description: `
+                    <h3>Your Intuitive Profile:</h3>
+                    <p>You are operating at a master level of intuitive ability. Your third eye is fully awakened and integrated into your consciousness, providing you with extraordinary access to information beyond the physical realm. You are likely a natural healer, teacher, or spiritual guide with the ability to profoundly impact others' lives through your gifts.</p>
+                    
+                    <h3>What This Means:</h3>
+                    <ul>
+                        <li>You have consistent access to highly accurate psychic information</li>
+                        <li>You may experience multiple psychic phenomena simultaneously</li>
+                        <li>You can perceive energy patterns, past lives, and future probabilities</li>
+                        <li>You serve as a bridge between the physical and spiritual worlds</li>
+                        <li>Your presence alone can be healing and transformative for others</li>
+                    </ul>
+                    
+                    <h3>Your Next Steps:</h3>
+                    <ul>
+                        <li><strong>Share Your Mastery:</strong> Teach, write, or counsel others on their spiritual journey</li>
+                        <li><strong>Continuous Growth:</strong> Even masters continue to evolve and learn</li>
+                        <li><strong>Global Service:</strong> Consider how your gifts can serve the greater good</li>
+                        <li><strong>Spiritual Leadership:</strong> Step into roles that allow you to guide others</li>
+                    </ul>
+                `
+            }
+        };
+
+        let currentQuestion = 0;
+        let answers = {};
+        let totalScore = 0;
+
+        function initializeQuiz() {
+            checkHTTPS();
+            displayQuestion(currentQuestion);
+            updateProgress();
+        }
+
+        function displayQuestion(questionIndex) {
+            const question = questions[questionIndex];
+            const container = document.getElementById('quizContainer');
+            
+            container.innerHTML = `
+                <div class="question-container">
+                    <div class="question-number">Question ${question.number} of ${questions.length}</div>
+                    <div class="question-text">${question.text}</div>
+                    <div class="answer-options">
+                        ${question.answers.map(answer => `
+                            <div class="answer-option" onclick="selectAnswer(${questionIndex}, ${answer.value})">
+                                <input type="radio" name="q${questionIndex}" value="${answer.value}" id="q${questionIndex}_${answer.value}">
+                                <span class="answer-label">${answer.label})</span>
+                                <span class="answer-text">${answer.text}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+
+            if (answers[questionIndex]) {
+                selectAnswer(questionIndex, answers[questionIndex], false);
+            }
+
+            updateNavigationButtons();
+        }
+
+        function selectAnswer(questionIndex, value, animate = true) {
+            answers[questionIndex] = value;
+            
+            const options = document.querySelectorAll(`input[name="q${questionIndex}"]`);
+            const optionDivs = document.querySelectorAll('.answer-option');
+            
+            optionDivs.forEach(div => div.classList.remove('selected'));
+            
+            const selectedInput = document.getElementById(`q${questionIndex}_${value}`);
+            if (selectedInput) {
+                selectedInput.checked = true;
+                selectedInput.closest('.answer-option').classList.add('selected');
+            }
+
+            updateNavigationButtons();
+            
+            if (animate) {
+                setTimeout(() => {
+                    if (currentQuestion < questions.length - 1) {
+                        nextQuestion();
+                    }
+                }, 800);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                displayQuestion(currentQuestion);
+                updateProgress();
+            } else {
+                calculateResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                displayQuestion(currentQuestion);
+                updateProgress();
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        function updateNavigationButtons() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            
+            prevBtn.disabled = currentQuestion === 0;
+            
+            if (currentQuestion === questions.length - 1) {
+                nextBtn.textContent = answers[currentQuestion] ? 'See Results' : 'See Results';
+                nextBtn.disabled = !answers[currentQuestion];
+            } else {
+                nextBtn.textContent = 'Next Question';
+                nextBtn.disabled = !answers[currentQuestion];
+            }
+        }
+
+        function calculateResults() {
+            totalScore = 0;
+            
+            for (let i = 0; i < questions.length; i++) {
+                if (answers[i]) {
+                    totalScore += answers[i];
+                }
+            }
+
+            let level;
+            if (totalScore <= 24) level = 1;
+            else if (totalScore <= 36) level = 2;
+            else if (totalScore <= 48) level = 3;
+            else if (totalScore <= 54) level = 4;
+            else level = 5;
+
+            displayResults(level);
+        }
+
+        function displayResults(level) {
+            const result = resultLevels[level];
+            
+            document.getElementById('quizContainer').style.display = 'none';
+            document.querySelector('.navigation-buttons').style.display = 'none';
+            document.querySelector('.progress-container').style.display = 'none';
+            
+            document.getElementById('resultsLevel').textContent = result.title;
+            document.getElementById('resultsScore').textContent = `Your Score: ${totalScore}/60 (${result.range})`;
+            document.getElementById('resultsDescription').innerHTML = result.description;
+            
+            document.getElementById('resultsContainer').style.display = 'block';
+            
+            document.getElementById('resultsContainer').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function shareResults(platform) {
+            const result = resultLevels[Math.ceil(totalScore / 12)] || resultLevels[1];
+            const text = encodeURIComponent(`I just discovered I'm a ${result.title}! Take this intuitive abilities quiz by Sonia.B Clairvoyant to discover your psychic potential.`);
+            const url = encodeURIComponent('https://www.intuitivebalancekeeper.com');
+            
+            let shareUrl;
+            switch(platform) {
+                case 'facebook':
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`;
+                    break;
+                case 'twitter':
+                    shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+                    break;
+                case 'linkedin':
+                    shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+                    break;
+            }
+            
+            if (shareUrl) {
+                openSecureLink(shareUrl);
+            }
+        }
+
+        function retakeQuiz() {
+            currentQuestion = 0;
+            answers = {};
+            totalScore = 0;
+            
+            document.getElementById('resultsContainer').style.display = 'none';
+            document.getElementById('quizContainer').style.display = 'block';
+            document.querySelector('.navigation-buttons').style.display = 'flex';
+            document.querySelector('.progress-container').style.display = 'block';
+            
+            initializeQuiz();
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('error', function(e) {
+            console.error('Quiz error:', e.error);
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="http://"]');
+            links.forEach(link => {
+                if (link.href.startsWith('http://')) {
+                    link.href = link.href.replace('http://', 'https://');
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', initializeQuiz);
+    </script>
+</body>
+</html>
+
